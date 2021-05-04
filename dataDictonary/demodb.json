@@ -1,0 +1,43 @@
+{
+    "Database": "demodb",
+    "UserName": "test",
+    "Table": "orders",
+    "Columns": [
+        {
+            "Name": "ordername",
+            "DataType": "varchar(255)",
+            "isNotNull": true,
+            "isUnique": true,
+            "isAutoIncrement": true,
+            "isPrimaryKey": true,
+            "isForeignKey": false,
+            "referencesTable": "",
+            "referencesKey": "",
+            "default": ""
+        },
+        {
+            "Name": "ordernumber",
+            "DataType": "int",
+            "isNotNull": true,
+            "isUnique": false,
+            "isAutoIncrement": false,
+            "isPrimaryKey": false,
+            "isForeignKey": false,
+            "referencesTable": "",
+            "referencesKey": "",
+            "default": "sandnes"
+        },
+        {
+            "Name": "personid",
+            "DataType": "int",
+            "isNotNull": false,
+            "isUnique": false,
+            "isAutoIncrement": false,
+            "isPrimaryKey": false,
+            "isForeignKey": true,
+            "referencesTable": "persons",
+            "referencesKey": "personid",
+            "default": ""
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "Type": "create",
+    "Database": "datadb",
+    "UserName": "test",
+    "Table": [
+        "orderdetail"
+    ],
+    "Columns": [
+        {
+            "Name": "orderdetailid",
+            "DataType": "int",
+            "isNotNull": true,
+            "isUnique": true,
+            "isAutoIncrement": true,
+            "isPrimaryKey": true,
+            "isForeignKey": false,
+            "referencesTable": "",
+            "referencesKey": "",
+            "default": ""
+        },
+        {
+            "Name": "productname",
+            "DataType": "varchar(255)",
+            "isNotNull": false,
+            "isUnique": false,
+            "isAutoIncrement": false,
+            "isPrimaryKey": false,
+            "isForeignKey": false,
+            "referencesTable": "",
+            "referencesKey": "",
+            "default": ""
+        },
+        {
+            "Name": "orderid",
+            "DataType": "int",
+            "isNotNull": false,
+            "isUnique": false,
+            "isAutoIncrement": false,
+            "isPrimaryKey": false,
+            "isForeignKey": true,
+            "referencesTable": "order",
+            "referencesKey": "orderid",
+            "default": ""
+        }
+    ]
+}

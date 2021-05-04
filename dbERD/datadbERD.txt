@@ -1,0 +1,37 @@
+
+Database Name is :datadb
+Database has total 3 entities
+
+Table Name is :order
+order's details is as follow:
+Column Name is :orderid
+Column Data Type is :int
+orderid is PrimaryKey
+Column Name is :customerid
+Column Data Type is :int
+customerid is ForeignKey
+Key: customerid references to table: customer
+Reference key is: customerid
+Cradinality from customer to order is 1:N
+
+Table Name is :customer
+customer's details is as follow:
+Column Name is :customerid
+Column Data Type is :int
+customerid is PrimaryKey
+Column Name is :customername
+Column Data Type is :varchar(255)
+
+Table Name is :orderdetail
+orderdetail's details is as follow:
+Column Name is :orderdetailid
+Column Data Type is :int
+orderdetailid is PrimaryKey
+Column Name is :productname
+Column Data Type is :varchar(255)
+Column Name is :orderid
+Column Data Type is :int
+orderid is ForeignKey
+Key: orderid references to table: order
+Reference key is: orderid
+Cradinality from order to orderdetail is 1:N

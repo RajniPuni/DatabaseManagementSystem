@@ -1,0 +1,25 @@
+
+Table Name is :testdb
+Column details are as follow: 
+
+Column Name is :OrderID
+Column Data Type is :varchar(255)
+OrderID is Unique
+OrderID cannot be Not Null
+OrderID is Auto Increment
+OrderID is PrimaryKey
+OrderID is not ForeignKey
+OrderID does not have any default value
+
+
+Column Name is :PersonID
+Column Data Type is :varchar(255)
+PersonID is not Unique
+PersonID cannot be Null
+PersonID is not Auto Increment
+PersonID is not PrimaryKey
+PersonID is ForeignKey
+PersonID references Persons(PersonID)
+PersonID's default value is Hello
+
+

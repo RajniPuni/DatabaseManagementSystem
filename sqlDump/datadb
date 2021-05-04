@@ -1,0 +1,83 @@
+create table sample3
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+create table hello
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+create table hello
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE AGENTS ( AGENT_CODE varchar(6) NOT NULL PRIMARY KEY , AGENT_NAME varchar(40) , WORKING_AREA varchar(35) , PHONE_NO varchar(15) , COUNTRY varchar(25) );
+CREATE TABLE Orders ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Agents ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Customers ( OrderName varchar(255) NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,OrderNumber int NOT NULL DEFAULT Sandnes,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE AGENTS ( AGENT_CODE varchar(6) NOT NULL PRIMARY KEY , AGENT_NAME varchar(40) , WORKING_AREA varchar(35) , PHONE_NO varchar(15) , COUNTRY varchar(25) );
+CREATE TABLE AGENTS ( AGENT_CODE varchar(255) NOT NULL PRIMARY KEY,AGENT_NAME varchar(255),WORKING_AREA varchar(255),COUNTRY varchar(255) );
+CREATE TABLE Orders ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,PersonID int FOREIGN KEY REFERENCES Persons ( PersonID ) );
+CREATE TABLE Persons ( PersonID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,PersonName varchar(255) );
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+CREATE TABLE CUSTOMER ( CustomerID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,PersonName varchar(255) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255) NOT NULL,OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255) NOT NULL,OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255) NOT NULL,OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255) NOT NULL,OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255) NOT NULL UNIQUE,OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+CREATE TABLE CUSTOMER ( CustomerID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerName varchar(255) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+insert into <table name> ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+CREATE TABLE CUSTOMER ( CustomerID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerName varchar(255) );
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 2 , 2 )
+insert into CUSTOMER ( OrderID , CustomerID ) values ( 1 , Jigar )
+insert into CUSTOMER ( OrderID , CustomerID ) values ( 2 , Rajni )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer, 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 3 , 3 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer, 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer , 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer, 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer , 1 )
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 2 , 2 )
+insert into ORDER ( OrderID , CustomerID ) values ( 2 , 2 )
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+CREATE TABLE ORDER ( OrderID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerID int FOREIGN KEY REFERENCES CUSTOMER ( CustomerID ) );
+insert into ORDER ( OrderID , CustomerID ) values ( 1 , 1 )
+insert into ORDER ( OrderID , CustomerID ) values ( 2 , 2 )
+CREATE TABLE CUSTOMER ( CustomerID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,CustomerName varchar(255) );
+insert into CUSTOMER ( OrderID , CustomerID ) values ( 1 , Jigar )
+insert into CUSTOMER ( OrderID , CustomerID ) values ( 2 , Rajni )
+CREATE TABLE ORDERDETAIL ( OrderDetailID int NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,ProductName varchar(255),OrderID int FOREIGN KEY REFERENCES ORDER ( OrderID ) );
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 1 , HairDryer , 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 2 , hairGel, 1)
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 2 , hairGel , 1)
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 2 , hairGel , 1)
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 2 , hairGel , 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 3 , HairWax , 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 4 , shampoo, 1)
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 4 , shampoo , 1 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 5 , conditioner, 3 )
+insert into ORDERDETAIL ( OrderDetailID , ProductName , OrderID ) values ( 5 , shampoo , 2 )
+insert into ORDER ( OrderID , CustomerID ) values ( 3 , 1 )
